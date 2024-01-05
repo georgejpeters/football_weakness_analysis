@@ -1,0 +1,443 @@
+,League,Season,Squad,Goals Scored,xG,xA,Goals Conceded,Points,League Group
+0,Bundesliga,2017/2018,FC Augsburg,43,42.25,31.64,46,41.0,Bottom Half
+1,Bundesliga,2017/2018,Bayer 04 Leverkusen,58,57.01,42.04,44,55.0,Top Half
+2,Bundesliga,2017/2018,Bayern Munich,92,76.58,58.86,28,84.0,Top Half
+3,Bundesliga,2017/2018,Borussia Dortmund,64,66.1,49.25,47,55.0,Top Half
+4,Bundesliga,2017/2018,Borussia Mönchengladbach,47,51.28,36.230000000000004,52,47.0,Bottom Half
+5,Bundesliga,2017/2018,Eintracht Frankfurt,45,41.04,30.41,45,49.0,Top Half
+6,Bundesliga,2017/2018,1.FC Union Berlin,35,41.5,29.36,70,22.0,Bottom Half
+7,Bundesliga,2017/2018,SC Freiburg,32,36.99,22.48,56,36.0,Bottom Half
+9,Bundesliga,2017/2018,Hannover 96,44,41.22,27.93,54,39.0,Bottom Half
+11,Bundesliga,2017/2018,TSG 1899 Hoffenheim,66,50.73,36.99,48,55.0,Top Half
+12,Bundesliga,2017/2018,1.FSV Mainz 05,38,31.62,22.55,52,36.0,Bottom Half
+13,Bundesliga,2017/2018,RB Leipzig,57,51.42,38.69,53,53.0,Top Half
+14,Bundesliga,2017/2018,FC Schalke 04,53,46.83,31.64,37,63.0,Top Half
+15,Bundesliga,2017/2018,VfB Stuttgart,36,37.91,25.19,36,51.0,Top Half
+16,Bundesliga,2017/2018,SV Werder Bremen,37,38.49,31.88,40,42.0,Bottom Half
+17,Bundesliga,2017/2018,VfL Wolfsburg,36,32.12,19.55,48,33.0,Bottom Half
+18,Bundesliga,2018/2019,FC Augsburg,51,47.47,33.68,71,32.0,Bottom Half
+19,Bundesliga,2018/2019,Bayer 04 Leverkusen,69,61.46,46.66,52,58.0,Top Half
+20,Bundesliga,2018/2019,Bayern Munich,88,92.24,72.75,32,78.0,Top Half
+21,Bundesliga,2018/2019,Borussia Dortmund,81,65.0,49.03,44,76.0,Top Half
+22,Bundesliga,2018/2019,Borussia Mönchengladbach,55,54.92,39.52,42,55.0,Top Half
+23,Bundesliga,2018/2019,Eintracht Frankfurt,60,61.839999999999996,46.98,48,54.0,Top Half
+24,Bundesliga,2018/2019,Fortuna Düsseldorf,49,49.49,34.35,65,44.0,Bottom Half
+25,Bundesliga,2018/2019,SC Freiburg,46,41.21,27.009999999999998,61,36.0,Bottom Half
+26,Bundesliga,2018/2019,Hannover 96,31,34.82,25.15,71,21.0,Bottom Half
+28,Bundesliga,2018/2019,TSG 1899 Hoffenheim,70,79.95,61.49,52,51.0,Bottom Half
+29,Bundesliga,2018/2019,1.FSV Mainz 05,46,49.21,36.44,57,43.0,Bottom Half
+31,Bundesliga,2018/2019,RB Leipzig,63,68.23,49.019999999999996,29,66.0,Top Half
+32,Bundesliga,2018/2019,FC Schalke 04,37,46.62,30.82,55,33.0,Bottom Half
+33,Bundesliga,2018/2019,VfB Stuttgart,32,37.36,28.06,70,28.0,Bottom Half
+34,Bundesliga,2018/2019,SV Werder Bremen,58,49.370000000000005,32.23,49,53.0,Top Half
+35,Bundesliga,2018/2019,VfL Wolfsburg,62,49.5,35.26,50,55.0,Top Half
+36,Bundesliga,2019/2020,FC Augsburg,45,43.85,29.89,63,36.0,Bottom Half
+37,Bundesliga,2019/2020,Bayer 04 Leverkusen,61,61.91,50.13,44,63.0,Top Half
+38,Bundesliga,2019/2020,Bayern Munich,100,92.83,76.29,32,82.0,Top Half
+39,Bundesliga,2019/2020,Borussia Dortmund,84,64.27,53.93,41,69.0,Top Half
+40,Bundesliga,2019/2020,Borussia Mönchengladbach,66,73.58,55.269999999999996,40,65.0,Top Half
+41,Bundesliga,2019/2020,Eintracht Frankfurt,59,58.36,44.4,60,45.0,Bottom Half
+42,Bundesliga,2019/2020,1.FC Union Berlin,51,49.27,36.16,69,36.0,Bottom Half
+43,Bundesliga,2019/2020,Fortuna Düsseldorf,36,35.67,23.74,67,30.0,Bottom Half
+44,Bundesliga,2019/2020,SC Freiburg,48,46.11,33.19,47,48.0,Top Half
+46,Bundesliga,2019/2020,TSG 1899 Hoffenheim,53,56.63,40.71,53,52.0,Top Half
+47,Bundesliga,2019/2020,1.FSV Mainz 05,44,46.18,36.21,65,37.0,Bottom Half
+49,Bundesliga,2019/2020,RB Leipzig,81,76.15,59.01,37,66.0,Top Half
+50,Bundesliga,2019/2020,FC Schalke 04,38,35.96,24.29,58,39.0,Bottom Half
+51,Bundesliga,2019/2020,1.FC Union Berlin,41,41.59,29.31,58,41.0,Bottom Half
+52,Bundesliga,2019/2020,SV Werder Bremen,42,37.75,24.76,69,31.0,Bottom Half
+53,Bundesliga,2019/2020,VfL Wolfsburg,48,54.43,38.24,46,49.0,Top Half
+54,Bundesliga,2020/2021,Arminia Bielefeld,26,31.13,22.71,52,35.0,Bottom Half
+55,Bundesliga,2020/2021,FC Augsburg,36,36.01,25.19,54,36.0,Bottom Half
+56,Bundesliga,2020/2021,Bayer 04 Leverkusen,53,47.26,36.64,39,52.0,Top Half
+57,Bundesliga,2020/2021,Bayern Munich,99,75.93,56.05,44,78.0,Top Half
+58,Bundesliga,2020/2021,Borussia Dortmund,75,68.94,53.04,46,64.0,Top Half
+59,Bundesliga,2020/2021,Borussia Mönchengladbach,64,54.13,35.54,56,49.0,Top Half
+60,Bundesliga,2020/2021,Eintracht Frankfurt,69,60.52,46.85,53,60.0,Top Half
+61,Bundesliga,2020/2021,1.FC Union Berlin,34,39.63,25.65,60,33.0,Bottom Half
+62,Bundesliga,2020/2021,SC Freiburg,52,45.14,30.1,52,45.0,Bottom Half
+64,Bundesliga,2020/2021,TSG 1899 Hoffenheim,52,50.32,36.45,54,43.0,Bottom Half
+65,Bundesliga,2020/2021,1.FSV Mainz 05,39,48.43,34.089999999999996,56,39.0,Bottom Half
+66,Bundesliga,2020/2021,RB Leipzig,60,67.13,45.57,32,65.0,Top Half
+67,Bundesliga,2020/2021,FC Schalke 04,25,27.7,19.82,86,16.0,Bottom Half
+68,Bundesliga,2020/2021,1.FC Union Berlin,50,46.01,33.14,43,50.0,Top Half
+69,Bundesliga,2020/2021,VfB Stuttgart,56,52.22,39.01,55,45.0,Bottom Half
+70,Bundesliga,2020/2021,SV Werder Bremen,36,32.5,20.72,57,31.0,Bottom Half
+71,Bundesliga,2020/2021,VfL Wolfsburg,61,51.61,39.99,37,61.0,Top Half
+72,Bundesliga,2021/2022,Arminia Bielefeld,27,27.23,19.53,53,28.0,Bottom Half
+73,Bundesliga,2021/2022,FC Augsburg,39,38.94,25.56,56,38.0,Bottom Half
+74,Bundesliga,2021/2022,Bayer 04 Leverkusen,80,66.32000000000001,49.25,47,64.0,Top Half
+75,Bundesliga,2021/2022,Bayern Munich,97,99.92,76.41,37,77.0,Top Half
+76,Bundesliga,2021/2022,VfL Bochum,38,44.8,30.41,52,42.0,Bottom Half
+77,Bundesliga,2021/2022,Borussia Dortmund,85,65.66,46.67,52,69.0,Top Half
+78,Bundesliga,2021/2022,Borussia Mönchengladbach,54,59.93,41.12,61,45.0,Bottom Half
+79,Bundesliga,2021/2022,Eintracht Frankfurt,45,41.660000000000004,32.63,49,42.0,Bottom Half
+80,Bundesliga,2021/2022,1.FC Union Berlin,52,52.31,40.17,49,52.0,Top Half
+81,Bundesliga,2021/2022,SC Freiburg,58,57.71,40.9,46,55.0,Top Half
+84,Bundesliga,2021/2022,TSG 1899 Hoffenheim,58,59.76,48.73,60,46.0,Top Half
+85,Bundesliga,2021/2022,1.FSV Mainz 05,50,52.08,37.18,45,46.0,Bottom Half
+86,Bundesliga,2021/2022,RB Leipzig,72,67.38,50.84,37,58.0,Top Half
+87,Bundesliga,2021/2022,1.FC Union Berlin,50,55.19,37.47,44,57.0,Top Half
+88,Bundesliga,2021/2022,VfB Stuttgart,41,47.9,37.59,59,33.0,Bottom Half
+89,Bundesliga,2021/2022,VfL Wolfsburg,43,49.26,34.21,54,42.0,Bottom Half
+90,EPL,2017/2018,Arsenal FC,74,72.26,57.839999999999996,51,63.0,Top Half
+91,EPL,2017/2018,AFC Bournemouth,45,40.01,30.34,61,44.0,Top Half
+92,EPL,2017/2018,Brighton & Hove Albion,34,37.2,26.78,54,40.0,Bottom Half
+93,EPL,2017/2018,Burnley FC,36,32.79,24.39,39,54.0,Top Half
+94,EPL,2017/2018,Chelsea FC,62,59.15,46.1,38,70.0,Top Half
+95,EPL,2017/2018,Crystal Palace,45,56.75,35.75,55,44.0,Bottom Half
+96,EPL,2017/2018,Everton FC,44,43.71,27.38,58,49.0,Top Half
+97,EPL,2017/2018,Huddersfield Town,28,32.17,24.57,58,37.0,Bottom Half
+98,EPL,2017/2018,Leicester City,56,50.27,35.59,60,47.0,Top Half
+99,EPL,2017/2018,Liverpool FC,84,77.53,57.41,38,75.0,Top Half
+100,EPL,2017/2018,Manchester City,106,91.46000000000001,67.61,27,100.0,Top Half
+101,EPL,2017/2018,Manchester United,68,59.05,44.35,28,81.0,Top Half
+102,EPL,2017/2018,Newcastle United,39,44.62,34.89,47,44.0,Bottom Half
+103,EPL,2017/2018,Southampton FC,37,41.88,32.91,56,36.0,Bottom Half
+106,EPL,2017/2018,Tottenham Hotspur,74,68.92,53.15,36,77.0,Top Half
+107,EPL,2017/2018,Watford FC,44,45.85,30.19,64,41.0,Bottom Half
+109,EPL,2017/2018,West Ham United,48,36.82,24.98,68,42.0,Bottom Half
+110,EPL,2018/2019,Arsenal FC,73,64.8,51.32,51,70.0,Top Half
+111,EPL,2018/2019,AFC Bournemouth,56,58.839999999999996,44.56,70,45.0,Bottom Half
+112,EPL,2018/2019,Brighton & Hove Albion,35,37.08,25.69,60,36.0,Bottom Half
+113,EPL,2018/2019,Burnley FC,45,44.71,31.52,68,40.0,Bottom Half
+115,EPL,2018/2019,Chelsea FC,63,63.96,50.99,39,72.0,Top Half
+116,EPL,2018/2019,Crystal Palace,51,50.65,31.99,53,49.0,Bottom Half
+117,EPL,2018/2019,Everton FC,54,53.86,36.53,46,54.0,Top Half
+119,EPL,2018/2019,Huddersfield Town,22,29.0,20.52,76,16.0,Bottom Half
+120,EPL,2018/2019,Leicester City,51,52.13,37.2,48,52.0,Top Half
+121,EPL,2018/2019,Liverpool FC,89,79.43,54.8,22,97.0,Top Half
+122,EPL,2018/2019,Manchester City,95,93.74,74.06,23,98.0,Top Half
+123,EPL,2018/2019,Manchester United,65,68.6,45.34,54,66.0,Top Half
+124,EPL,2018/2019,Newcastle United,42,39.92,28.78,48,45.0,Bottom Half
+125,EPL,2018/2019,Southampton FC,45,49.67,32.17,65,39.0,Bottom Half
+126,EPL,2018/2019,Tottenham Hotspur,67,61.74,43.92,39,71.0,Top Half
+127,EPL,2018/2019,Watford FC,52,51.75,38.77,59,50.0,Bottom Half
+128,EPL,2018/2019,West Ham United,52,47.97,34.99,55,52.0,Top Half
+129,EPL,2018/2019,Wolverhampton Wanderers,47,53.050000000000004,40.28,46,57.0,Top Half
+130,EPL,2019/2020,Arsenal FC,56,50.839999999999996,34.6,48,56.0,Top Half
+131,EPL,2019/2020,Aston Villa,41,45.08,34.03,67,35.0,Bottom Half
+132,EPL,2019/2020,AFC Bournemouth,40,44.65,31.22,65,34.0,Bottom Half
+133,EPL,2019/2020,Brighton & Hove Albion,39,47.4,34.05,54,41.0,Bottom Half
+134,EPL,2019/2020,Burnley FC,43,49.35,33.99,50,54.0,Top Half
+135,EPL,2019/2020,Chelsea FC,69,76.24,52.62,54,66.0,Top Half
+136,EPL,2019/2020,Crystal Palace,31,34.45,25.01,50,43.0,Bottom Half
+137,EPL,2019/2020,Everton FC,44,53.72,40.02,56,49.0,Bottom Half
+138,EPL,2019/2020,Leicester City,67,60.99,45.3,41,62.0,Top Half
+139,EPL,2019/2020,Liverpool FC,85,75.19,57.66,33,99.0,Top Half
+140,EPL,2019/2020,Manchester City,102,102.22,78.47,35,81.0,Top Half
+141,EPL,2019/2020,Manchester United,66,66.17,41.58,36,66.0,Top Half
+142,EPL,2019/2020,Newcastle United,38,36.46,27.97,58,44.0,Bottom Half
+144,EPL,2019/2020,Sheffield United,39,45.78,36.16,39,54.0,Top Half
+145,EPL,2019/2020,Southampton FC,51,56.519999999999996,37.96,60,52.0,Bottom Half
+146,EPL,2019/2020,Tottenham Hotspur,61,49.04,34.55,47,59.0,Top Half
+147,EPL,2019/2020,Watford FC,36,48.54,31.43,64,34.0,Bottom Half
+148,EPL,2019/2020,West Ham United,49,49.07,38.2,62,39.0,Bottom Half
+149,EPL,2019/2020,Wolverhampton Wanderers,51,54.21,38.69,40,59.0,Top Half
+150,EPL,2020/2021,Arsenal FC,55,52.26,36.2,39,61.0,Top Half
+151,EPL,2020/2021,Aston Villa,55,56.73,41.67,46,55.0,Bottom Half
+152,EPL,2020/2021,Brighton & Hove Albion,40,53.8,36.4,46,41.0,Bottom Half
+153,EPL,2020/2021,Burnley FC,33,38.15,28.0,55,39.0,Bottom Half
+154,EPL,2020/2021,Chelsea FC,58,68.63,46.96,36,67.0,Top Half
+155,EPL,2020/2021,Crystal Palace,41,35.26,25.0,66,44.0,Bottom Half
+156,EPL,2020/2021,Everton FC,47,49.23,33.95,48,59.0,Top Half
+158,EPL,2020/2021,Leeds United,62,59.28,45.46,54,59.0,Top Half
+159,EPL,2020/2021,Leicester City,68,58.78,36.07,50,66.0,Top Half
+160,EPL,2020/2021,Liverpool FC,68,72.2,52.79,42,69.0,Top Half
+161,EPL,2020/2021,Manchester City,83,77.71,56.1,32,86.0,Top Half
+162,EPL,2020/2021,Manchester United,73,63.15,44.68,44,74.0,Top Half
+163,EPL,2020/2021,Newcastle United,46,43.94,30.05,62,45.0,Bottom Half
+164,EPL,2020/2021,Sheffield United,20,33.17,25.89,63,23.0,Bottom Half
+165,EPL,2020/2021,Southampton FC,47,45.29,29.0,68,43.0,Bottom Half
+166,EPL,2020/2021,Tottenham Hotspur,68,56.67,38.3,45,62.0,Top Half
+168,EPL,2020/2021,West Ham United,62,60.33,44.5,47,65.0,Top Half
+169,EPL,2020/2021,Wolverhampton Wanderers,36,38.62,25.56,52,45.0,Bottom Half
+170,EPL,2021/2022,Arsenal FC,61,63.37,39.99,48,69.0,Top Half
+171,EPL,2021/2022,Aston Villa,52,43.11,33.42,54,45.0,Bottom Half
+172,EPL,2021/2022,Brentford FC,48,52.87,38.24,56,46.0,Bottom Half
+173,EPL,2021/2022,Brighton & Hove Albion,42,49.58,35.4,44,51.0,Top Half
+174,EPL,2021/2022,Burnley FC,34,41.11,31.51,53,35.0,Bottom Half
+175,EPL,2021/2022,Chelsea FC,76,69.29,51.52,33,74.0,Top Half
+176,EPL,2021/2022,Crystal Palace,50,48.85,33.72,46,48.0,Bottom Half
+177,EPL,2021/2022,Everton FC,43,44.51,30.55,66,39.0,Bottom Half
+178,EPL,2021/2022,Leeds United,42,51.19,35.89,79,38.0,Bottom Half
+179,EPL,2021/2022,Leicester City,62,49.49,34.85,59,52.0,Top Half
+180,EPL,2021/2022,Liverpool FC,94,93.02,66.46000000000001,26,92.0,Top Half
+181,EPL,2021/2022,Manchester City,99,93.39,67.69,26,93.0,Top Half
+182,EPL,2021/2022,Manchester United,57,57.21,44.33,57,58.0,Top Half
+183,EPL,2021/2022,Newcastle United,44,41.56,27.49,62,49.0,Bottom Half
+185,EPL,2021/2022,Southampton FC,43,47.36,33.77,67,40.0,Bottom Half
+186,EPL,2021/2022,Tottenham Hotspur,69,67.96,52.620000000000005,40,71.0,Top Half
+187,EPL,2021/2022,Watford FC,34,39.33,31.83,77,23.0,Bottom Half
+188,EPL,2021/2022,West Ham United,60,54.99,38.71,51,56.0,Top Half
+189,EPL,2021/2022,Wolverhampton Wanderers,38,39.050000000000004,27.53,43,51.0,Top Half
+190,LaLiga,2017/2018,Deportivo Alavés,40,37.88,27.45,50,47.0,Bottom Half
+191,LaLiga,2017/2018,Athletic Bilbao,41,51.76,35.73,49,43.0,Bottom Half
+192,LaLiga,2017/2018,Atlético de Madrid,58,50.3,36.5,22,79.0,Top Half
+193,LaLiga,2017/2018,FC Barcelona,99,90.5,68.43,29,93.0,Top Half
+194,LaLiga,2017/2018,Celta de Vigo,59,54.59,43.04,60,49.0,Bottom Half
+196,LaLiga,2017/2018,SD Eibar,44,41.41,30.56,50,51.0,Top Half
+197,LaLiga,2017/2018,RCD Espanyol Barcelona,36,41.57,27.26,42,49.0,Bottom Half
+198,LaLiga,2017/2018,Getafe CF,42,49.03,30.38,33,55.0,Top Half
+199,LaLiga,2017/2018,Girona FC,50,52.07,35.26,59,51.0,Top Half
+201,LaLiga,2017/2018,CD Leganés,34,39.29,29.23,51,43.0,Bottom Half
+202,LaLiga,2017/2018,Levante UD,44,44.2,31.79,58,46.0,Bottom Half
+204,LaLiga,2017/2018,Real Betis Balompié,60,46.71,35.36,61,60.0,Top Half
+205,LaLiga,2017/2018,Real Madrid,94,91.29,68.23,44,76.0,Top Half
+206,LaLiga,2017/2018,Real Sociedad,66,56.34,41.37,59,49.0,Bottom Half
+207,LaLiga,2017/2018,Sevilla FC,49,61.49,42.92,58,58.0,Top Half
+208,LaLiga,2017/2018,Valencia CF,65,57.79,41.0,38,73.0,Top Half
+209,LaLiga,2017/2018,Villarreal CF,57,55.65,44.17,50,61.0,Top Half
+210,LaLiga,2018/2019,Deportivo Alavés,39,40.89,28.28,50,50.0,Top Half
+211,LaLiga,2018/2019,Athletic Bilbao,41,44.42,31.0,45,53.0,Top Half
+212,LaLiga,2018/2019,Atlético de Madrid,55,51.86,38.37,29,76.0,Top Half
+213,LaLiga,2018/2019,FC Barcelona,90,83.27,60.83,36,87.0,Top Half
+214,LaLiga,2018/2019,Celta de Vigo,53,48.71,34.84,62,41.0,Bottom Half
+215,LaLiga,2018/2019,SD Eibar,46,56.63,36.410000000000004,50,47.0,Bottom Half
+216,LaLiga,2018/2019,RCD Espanyol Barcelona,48,50.14,34.06,50,53.0,Top Half
+217,LaLiga,2018/2019,Getafe CF,48,47.04,33.45,35,59.0,Top Half
+218,LaLiga,2018/2019,Girona FC,37,42.97,28.55,53,37.0,Bottom Half
+219,LaLiga,2018/2019,CD Leganés,37,41.24,28.05,43,45.0,Bottom Half
+220,LaLiga,2018/2019,Levante UD,59,54.089999999999996,39.17,66,44.0,Bottom Half
+221,LaLiga,2018/2019,Rayo Vallecano,41,47.27,30.67,70,32.0,Bottom Half
+222,LaLiga,2018/2019,Real Betis Balompié,44,51.66,36.43,52,50.0,Top Half
+223,LaLiga,2018/2019,Real Madrid,63,68.65,50.35,46,68.0,Top Half
+224,LaLiga,2018/2019,Real Sociedad,45,47.97,31.009999999999998,46,50.0,Bottom Half
+225,LaLiga,2018/2019,Real Valladolid CF,32,41.64,27.65,51,41.0,Bottom Half
+227,LaLiga,2018/2019,Sevilla FC,62,69.17,51.36,47,59.0,Top Half
+228,LaLiga,2018/2019,Valencia CF,51,61.89,47.79,35,61.0,Top Half
+229,LaLiga,2018/2019,Villarreal CF,49,54.79,39.32,52,44.0,Bottom Half
+230,LaLiga,2019/2020,Deportivo Alavés,34,38.12,25.22,59,39.0,Bottom Half
+231,LaLiga,2019/2020,Athletic Bilbao,41,42.09,26.26,38,51.0,Bottom Half
+232,LaLiga,2019/2020,Atlético de Madrid,51,58.69,41.89,27,70.0,Top Half
+233,LaLiga,2019/2020,FC Barcelona,86,71.99,53.99,38,82.0,Top Half
+234,LaLiga,2019/2020,Celta de Vigo,37,40.46,27.41,49,37.0,Bottom Half
+235,LaLiga,2019/2020,SD Eibar,39,42.339999999999996,27.13,56,42.0,Bottom Half
+236,LaLiga,2019/2020,RCD Espanyol Barcelona,27,37.02,25.89,58,25.0,Bottom Half
+237,LaLiga,2019/2020,Getafe CF,43,45.2,31.41,37,54.0,Top Half
+238,LaLiga,2019/2020,Granada CF,52,45.04,32.18,45,56.0,Top Half
+239,LaLiga,2019/2020,CD Leganés,30,38.94,26.3,51,36.0,Bottom Half
+240,LaLiga,2019/2020,Levante UD,47,49.45,36.48,53,49.0,Bottom Half
+241,LaLiga,2019/2020,RCD Mallorca,40,40.47,24.47,65,33.0,Bottom Half
+242,LaLiga,2019/2020,CA Osasuna,46,49.08,33.11,54,52.0,Top Half
+243,LaLiga,2019/2020,Real Betis Balompié,48,48.9,34.57,60,41.0,Bottom Half
+244,LaLiga,2019/2020,Real Madrid,70,72.16,52.87,25,87.0,Top Half
+245,LaLiga,2019/2020,Real Sociedad,56,50.93,37.64,48,56.0,Top Half
+246,LaLiga,2019/2020,Real Valladolid CF,32,35.66,22.81,43,42.0,Bottom Half
+247,LaLiga,2019/2020,Sevilla FC,54,55.15,38.45,34,70.0,Top Half
+248,LaLiga,2019/2020,Valencia CF,46,45.61,33.59,53,53.0,Top Half
+249,LaLiga,2019/2020,Villarreal CF,63,65.61,44.81,49,60.0,Top Half
+250,LaLiga,2020/2021,Deportivo Alavés,36,39.12,24.41,57,38.0,Bottom Half
+251,LaLiga,2020/2021,Athletic Bilbao,46,43.089999999999996,31.68,42,46.0,Top Half
+252,LaLiga,2020/2021,Atlético de Madrid,67,57.68,44.8,25,86.0,Top Half
+253,LaLiga,2020/2021,FC Barcelona,85,83.94,59.6,38,79.0,Top Half
+255,LaLiga,2020/2021,Celta de Vigo,55,51.33,38.55,57,53.0,Top Half
+256,LaLiga,2020/2021,SD Eibar,29,42.44,27.55,52,30.0,Bottom Half
+257,LaLiga,2020/2021,Elche CF,34,30.43,22.44,55,36.0,Bottom Half
+258,LaLiga,2020/2021,Getafe CF,28,35.61,24.580000000000002,43,38.0,Bottom Half
+259,LaLiga,2020/2021,Granada CF,47,41.03,26.66,65,46.0,Top Half
+260,LaLiga,2020/2021,Levante UD,46,40.93,29.48,57,41.0,Bottom Half
+261,LaLiga,2020/2021,CA Osasuna,37,39.62,25.669999999999998,48,44.0,Bottom Half
+262,LaLiga,2020/2021,Real Betis Balompié,50,49.769999999999996,33.68,50,61.0,Top Half
+263,LaLiga,2020/2021,Real Madrid,67,65.09,49.66,28,84.0,Top Half
+264,LaLiga,2020/2021,Real Sociedad,59,63.14,41.28,38,62.0,Top Half
+265,LaLiga,2020/2021,Real Valladolid CF,34,37.91,21.81,57,31.0,Bottom Half
+267,LaLiga,2020/2021,Sevilla FC,53,55.86,42.64,33,77.0,Top Half
+268,LaLiga,2020/2021,Valencia CF,50,41.9,26.63,53,43.0,Bottom Half
+269,LaLiga,2020/2021,Villarreal CF,60,57.84,41.8,44,58.0,Top Half
+270,LaLiga,2021/2022,Deportivo Alavés,31,38.449999999999996,26.6,65,31.0,Bottom Half
+271,LaLiga,2021/2022,Athletic Bilbao,43,57.0,44.9,36,55.0,Top Half
+272,LaLiga,2021/2022,Atlético de Madrid,65,59.43,42.45,43,71.0,Top Half
+273,LaLiga,2021/2022,FC Barcelona,68,70.53,52.55,38,73.0,Top Half
+275,LaLiga,2021/2022,Celta de Vigo,43,44.9,30.17,43,46.0,Bottom Half
+276,LaLiga,2021/2022,Elche CF,40,36.83,29.34,52,42.0,Bottom Half
+277,LaLiga,2021/2022,RCD Espanyol Barcelona,40,38.88,27.64,53,42.0,Bottom Half
+278,LaLiga,2021/2022,Getafe CF,33,31.54,20.68,41,39.0,Bottom Half
+279,LaLiga,2021/2022,Granada CF,44,41.29,27.97,61,38.0,Bottom Half
+280,LaLiga,2021/2022,Levante UD,51,57.56,33.85,76,35.0,Bottom Half
+281,LaLiga,2021/2022,RCD Mallorca,36,40.61,26.05,63,39.0,Bottom Half
+282,LaLiga,2021/2022,CA Osasuna,37,42.02,27.8,51,47.0,Top Half
+283,LaLiga,2021/2022,Rayo Vallecano,39,47.05,34.23,50,42.0,Bottom Half
+284,LaLiga,2021/2022,Real Betis Balompié,62,55.910000000000004,40.32,40,65.0,Top Half
+285,LaLiga,2021/2022,Real Madrid,80,80.26,59.68,31,86.0,Top Half
+286,LaLiga,2021/2022,Real Sociedad,40,56.11,36.45,37,62.0,Top Half
+287,LaLiga,2021/2022,Sevilla FC,53,46.84,37.42,30,70.0,Top Half
+288,LaLiga,2021/2022,Valencia CF,48,42.28,27.98,53,48.0,Top Half
+289,LaLiga,2021/2022,Villarreal CF,63,70.34,55.19,37,59.0,Top Half
+290,Ligue1,2017/2018,Amiens SC,37,31.48,20.31,42,45.0,Bottom Half
+291,Ligue1,2017/2018,Angers SCO,42,46.16,33.88,52,41.0,Bottom Half
+292,Ligue1,2017/2018,FC Girondins Bordeaux,53,52.59,37.76,48,55.0,Top Half
+293,Ligue1,2017/2018,SM Caen,27,41.18,28.830000000000002,52,38.0,Bottom Half
+294,Ligue1,2017/2018,Dijon FCO,55,40.01,28.08,73,48.0,Top Half
+295,Ligue1,2017/2018,EA Guingamp,48,41.85,26.990000000000002,59,47.0,Bottom Half
+296,Ligue1,2017/2018,LOSC Lille,41,36.17,29.07,67,38.0,Bottom Half
+297,Ligue1,2017/2018,Olympique Lyon,87,65.27,45.47,43,78.0,Top Half
+298,Ligue1,2017/2018,Olympique Marseille,80,82.18,58.56,47,77.0,Top Half
+299,Ligue1,2017/2018,FC Metz,34,36.41,27.54,76,26.0,Bottom Half
+300,Ligue1,2017/2018,AS Monaco,85,62.43,43.230000000000004,45,80.0,Top Half
+301,Ligue1,2017/2018,Montpellier HSC,36,39.8,30.5,33,51.0,Top Half
+302,Ligue1,2017/2018,FC Nantes,36,39.81,28.16,41,52.0,Top Half
+303,Ligue1,2017/2018,OGC Nice,53,47.33,29.13,52,54.0,Top Half
+304,Ligue1,2017/2018,Paris Saint-Germain,108,89.91,68.29,29,93.0,Top Half
+306,Ligue1,2017/2018,AS Saint-Étienne,47,51.019999999999996,34.03,50,55.0,Top Half
+307,Ligue1,2017/2018,RC Strasbourg Alsace,44,43.3,28.52,67,38.0,Bottom Half
+308,Ligue1,2017/2018,FC Toulouse,38,43.3,27.71,54,37.0,Bottom Half
+309,Ligue1,2017/2018,ESTAC Troyes,32,37.16,26.05,59,33.0,Bottom Half
+310,Ligue1,2018/2019,Amiens SC,31,34.63,22.73,52,38.0,Bottom Half
+311,Ligue1,2018/2019,Angers SCO,44,47.51,30.01,49,46.0,Bottom Half
+312,Ligue1,2018/2019,FC Girondins Bordeaux,34,37.26,27.83,42,41.0,Bottom Half
+313,Ligue1,2018/2019,SM Caen,29,26.98,17.42,54,33.0,Bottom Half
+314,Ligue1,2018/2019,Dijon FCO,31,36.13,25.6,60,34.0,Bottom Half
+315,Ligue1,2018/2019,EA Guingamp,28,39.45,28.259999999999998,68,27.0,Bottom Half
+316,Ligue1,2018/2019,LOSC Lille,68,60.04,39.87,33,75.0,Top Half
+317,Ligue1,2018/2019,Olympique Lyon,70,72.72,49.3,47,72.0,Top Half
+318,Ligue1,2018/2019,Olympique Marseille,60,52.08,38.55,52,61.0,Top Half
+319,Ligue1,2018/2019,AS Monaco,38,46.5,30.73,57,36.0,Bottom Half
+320,Ligue1,2018/2019,Montpellier HSC,53,46.62,33.17,42,59.0,Top Half
+321,Ligue1,2018/2019,FC Nantes,48,48.05,30.2,48,48.0,Top Half
+322,Ligue1,2018/2019,OGC Nice,30,43.44,28.92,35,56.0,Top Half
+324,Ligue1,2018/2019,Paris Saint-Germain,105,95.35,69.54,35,91.0,Top Half
+325,Ligue1,2018/2019,Stade Reims,39,37.13,27.44,42,55.0,Top Half
+327,Ligue1,2018/2019,AS Saint-Étienne,59,57.84,38.64,41,66.0,Top Half
+328,Ligue1,2018/2019,RC Strasbourg Alsace,58,40.61,27.41,48,49.0,Top Half
+329,Ligue1,2018/2019,FC Toulouse,35,42.74,26.8,57,38.0,Bottom Half
+330,Ligue1,2019/2020,Amiens SC,31,25.59,16.54,50,23.0,Bottom Half
+331,Ligue1,2019/2020,Angers SCO,28,27.1,21.400000000000002,33,39.0,Top Half
+332,Ligue1,2019/2020,FC Girondins Bordeaux,40,30.46,21.91,34,37.0,Bottom Half
+333,Ligue1,2019/2020,Stade Brestois 29,34,30.05,22.2,37,34.0,Bottom Half
+334,Ligue1,2019/2020,Dijon FCO,27,27.38,20.6,37,30.0,Bottom Half
+335,Ligue1,2019/2020,LOSC Lille,35,40.81,24.6,27,49.0,Top Half
+336,Ligue1,2019/2020,Olympique Lyon,42,36.23,24.48,27,40.0,Top Half
+337,Ligue1,2019/2020,Olympique Marseille,41,36.41,26.080000000000002,29,56.0,Top Half
+338,Ligue1,2019/2020,FC Metz,27,24.66,15.28,35,34.0,Bottom Half
+339,Ligue1,2019/2020,AS Monaco,44,48.53,33.87,44,40.0,Top Half
+340,Ligue1,2019/2020,Montpellier HSC,35,34.92,22.84,34,40.0,Top Half
+341,Ligue1,2019/2020,FC Nantes,28,27.82,21.63,31,37.0,Bottom Half
+342,Ligue1,2019/2020,OGC Nice,41,36.45,25.81,38,41.0,Top Half
+344,Ligue1,2019/2020,Paris Saint-Germain,75,76.4,56.04,24,68.0,Top Half
+345,Ligue1,2019/2020,Stade Reims,26,28.93,20.95,21,41.0,Top Half
+347,Ligue1,2019/2020,AS Saint-Étienne,29,29.65,18.36,45,30.0,Bottom Half
+348,Ligue1,2019/2020,RC Strasbourg Alsace,32,34.54,22.95,32,38.0,Top Half
+349,Ligue1,2019/2020,FC Toulouse,22,31.3,19.09,58,13.0,Bottom Half
+350,Ligue1,2020/2021,Angers SCO,40,39.92,25.21,58,44.0,Bottom Half
+351,Ligue1,2020/2021,FC Girondins Bordeaux,42,43.55,31.43,56,45.0,Bottom Half
+352,Ligue1,2020/2021,Stade Brestois 29,50,45.78,32.7,66,41.0,Bottom Half
+353,Ligue1,2020/2021,Dijon FCO,25,31.89,21.12,73,21.0,Bottom Half
+354,Ligue1,2020/2021,RC Lens,55,56.38,37.76,54,57.0,Top Half
+355,Ligue1,2020/2021,LOSC Lille,64,48.05,33.25,23,83.0,Top Half
+356,Ligue1,2020/2021,FC Lorient,50,48.13,30.36,68,42.0,Bottom Half
+357,Ligue1,2020/2021,Olympique Lyon,81,82.35,56.5,43,76.0,Top Half
+358,Ligue1,2020/2021,Olympique Marseille,54,49.27,39.05,47,60.0,Top Half
+359,Ligue1,2020/2021,FC Metz,44,42.27,27.33,48,47.0,Top Half
+360,Ligue1,2020/2021,AS Monaco,76,70.36,48.88,42,78.0,Top Half
+361,Ligue1,2020/2021,Montpellier HSC,60,52.28,34.13,62,54.0,Top Half
+362,Ligue1,2020/2021,FC Nantes,47,48.28,28.85,55,40.0,Bottom Half
+363,Ligue1,2020/2021,OGC Nice,50,46.39,29.71,53,52.0,Top Half
+365,Ligue1,2020/2021,Paris Saint-Germain,86,83.89,59.11,28,82.0,Top Half
+366,Ligue1,2020/2021,Stade Reims,42,33.2,22.04,50,42.0,Bottom Half
+368,Ligue1,2020/2021,AS Saint-Étienne,42,47.26,30.64,54,46.0,Top Half
+369,Ligue1,2020/2021,RC Strasbourg Alsace,49,52.79,30.93,58,42.0,Bottom Half
+370,Ligue1,2021/2022,Angers SCO,44,45.199999999999996,28.54,55,41.0,Bottom Half
+371,Ligue1,2021/2022,FC Girondins Bordeaux,52,46.25,33.65,91,31.0,Bottom Half
+372,Ligue1,2021/2022,Stade Brestois 29,49,44.82,30.59,57,48.0,Top Half
+373,Ligue1,2021/2022,Clermont Foot 63,38,42.06,30.06,69,36.0,Bottom Half
+374,Ligue1,2021/2022,RC Lens,62,52.230000000000004,36.46,48,62.0,Top Half
+375,Ligue1,2021/2022,LOSC Lille,48,56.39,37.15,48,55.0,Top Half
+376,Ligue1,2021/2022,FC Lorient,35,39.32,27.150000000000002,63,36.0,Bottom Half
+377,Ligue1,2021/2022,Olympique Lyon,66,73.33,53.32,51,62.0,Top Half
+378,Ligue1,2021/2022,Olympique Marseille,63,59.88,42.42,38,71.0,Top Half
+379,Ligue1,2021/2022,FC Metz,35,30.14,22.669999999999998,69,31.0,Bottom Half
+380,Ligue1,2021/2022,AS Monaco,65,63.58,47.55,40,69.0,Top Half
+381,Ligue1,2021/2022,Montpellier HSC,49,42.47,27.87,61,43.0,Bottom Half
+382,Ligue1,2021/2022,FC Nantes,55,45.76,34.96,48,55.0,Top Half
+383,Ligue1,2021/2022,OGC Nice,52,59.63,40.13,36,67.0,Top Half
+384,Ligue1,2021/2022,Paris Saint-Germain,90,82.32,60.910000000000004,36,86.0,Top Half
+385,Ligue1,2021/2022,Stade Reims,43,40.02,28.31,44,46.0,Bottom Half
+387,Ligue1,2021/2022,AS Saint-Étienne,42,40.18,27.57,77,32.0,Bottom Half
+388,Ligue1,2021/2022,RC Strasbourg Alsace,60,61.21,44.49,43,63.0,Top Half
+389,Ligue1,2021/2022,ESTAC Troyes,37,39.72,28.48,53,38.0,Bottom Half
+391,SeriaA,2017/2018,Atalanta BC,57,64.26,44.29,39,60.0,Top Half
+393,SeriaA,2017/2018,Bologna FC 1909,40,36.09,24.21,52,39.0,Bottom Half
+394,SeriaA,2017/2018,Cagliari Calcio,33,38.28,26.04,61,39.0,Bottom Half
+395,SeriaA,2017/2018,Chievo Verona,36,34.34,26.19,59,40.0,Bottom Half
+397,SeriaA,2017/2018,ACF Fiorentina,54,54.11,37.84,46,57.0,Top Half
+398,SeriaA,2017/2018,Genoa CFC,33,42.19,32.4,43,41.0,Bottom Half
+399,SeriaA,2017/2018,Inter Milan,66,60.84,47.61,30,72.0,Top Half
+400,SeriaA,2017/2018,Juventus FC,86,59.24,40.65,24,95.0,Top Half
+401,SeriaA,2017/2018,SS Lazio,89,66.51,47.49,49,72.0,Top Half
+402,SeriaA,2017/2018,SSC Napoli,77,70.45,53.59,29,91.0,Top Half
+403,SeriaA,2017/2018,AS Roma,61,65.63,48.65,28,77.0,Top Half
+404,SeriaA,2017/2018,SPAL,39,34.59,21.0,59,38.0,Bottom Half
+405,SeriaA,2017/2018,UC Sampdoria,56,53.12,36.11,60,54.0,Top Half
+406,SeriaA,2017/2018,US Sassuolo,29,47.129999999999995,26.97,59,43.0,Top Half
+407,SeriaA,2017/2018,Torino FC,54,46.6,35.43,46,54.0,Top Half
+408,SeriaA,2017/2018,Udinese Calcio,48,45.17,31.73,63,40.0,Bottom Half
+409,SeriaA,2017/2018,Hellas Verona,30,33.74,21.57,78,25.0,Bottom Half
+411,SeriaA,2018/2019,Atalanta BC,77,74.39,57.57,46,69.0,Top Half
+412,SeriaA,2018/2019,Bologna FC 1909,48,48.1,32.05,56,44.0,Top Half
+413,SeriaA,2018/2019,Cagliari Calcio,36,40.910000000000004,29.36,54,41.0,Bottom Half
+414,SeriaA,2018/2019,Chievo Verona,25,36.49,25.73,75,20.0,Bottom Half
+416,SeriaA,2018/2019,ACF Fiorentina,47,54.11,35.99,45,41.0,Bottom Half
+418,SeriaA,2018/2019,Genoa CFC,39,44.53,31.09,57,38.0,Bottom Half
+419,SeriaA,2018/2019,Inter Milan,57,66.48,48.21,33,69.0,Top Half
+420,SeriaA,2018/2019,Juventus FC,70,64.52,45.27,30,90.0,Top Half
+421,SeriaA,2018/2019,SS Lazio,56,61.25,45.49,46,59.0,Top Half
+422,SeriaA,2018/2019,SSC Napoli,74,68.24,55.62,36,79.0,Top Half
+423,SeriaA,2018/2019,Parma Calcio 1913,41,41.1,26.7,61,41.0,Bottom Half
+424,SeriaA,2018/2019,AS Roma,66,68.38,49.76,48,66.0,Top Half
+425,SeriaA,2018/2019,SPAL,44,43.29,27.62,56,42.0,Bottom Half
+426,SeriaA,2018/2019,UC Sampdoria,60,53.21,35.37,51,53.0,Top Half
+427,SeriaA,2018/2019,US Sassuolo,53,49.76,35.68,60,43.0,Top Half
+428,SeriaA,2018/2019,Torino FC,52,46.5,31.78,37,63.0,Top Half
+429,SeriaA,2018/2019,Udinese Calcio,39,42.5,28.42,53,43.0,Bottom Half
+431,SeriaA,2019/2020,Atalanta BC,98,86.16,60.0,48,78.0,Top Half
+432,SeriaA,2019/2020,Bologna FC 1909,52,57.41,42.83,65,47.0,Bottom Half
+434,SeriaA,2019/2020,Cagliari Calcio,52,41.92,32.17,56,45.0,Bottom Half
+435,SeriaA,2019/2020,ACF Fiorentina,51,53.51,34.32,48,49.0,Top Half
+436,SeriaA,2019/2020,Genoa CFC,47,49.910000000000004,29.7,73,39.0,Bottom Half
+437,SeriaA,2019/2020,Inter Milan,81,73.96,47.39,36,82.0,Top Half
+438,SeriaA,2019/2020,Juventus FC,76,73.76,47.74,43,83.0,Top Half
+439,SeriaA,2019/2020,SS Lazio,79,67.53,41.88,42,78.0,Top Half
+441,SeriaA,2019/2020,SSC Napoli,61,63.88,49.57,50,62.0,Top Half
+442,SeriaA,2019/2020,Parma Calcio 1913,56,47.12,32.89,57,49.0,Top Half
+443,SeriaA,2019/2020,AS Roma,77,78.33,52.75,51,70.0,Top Half
+444,SeriaA,2019/2020,SPAL,27,39.04,25.36,77,20.0,Bottom Half
+445,SeriaA,2019/2020,UC Sampdoria,48,48.92,30.25,65,42.0,Bottom Half
+446,SeriaA,2019/2020,US Sassuolo,69,53.42,39.15,63,51.0,Top Half
+447,SeriaA,2019/2020,Torino FC,46,43.5,29.55,68,40.0,Bottom Half
+448,SeriaA,2019/2020,Udinese Calcio,37,43.72,34.92,51,45.0,Bottom Half
+449,SeriaA,2019/2020,Hellas Verona,47,52.47,36.15,51,49.0,Top Half
+451,SeriaA,2020/2021,Atalanta BC,90,82.0,61.64,47,78.0,Top Half
+453,SeriaA,2020/2021,Bologna FC 1909,51,57.54,41.1,65,41.0,Bottom Half
+454,SeriaA,2020/2021,Cagliari Calcio,43,45.63,32.49,59,37.0,Bottom Half
+456,SeriaA,2020/2021,ACF Fiorentina,47,46.17,32.8,59,40.0,Bottom Half
+457,SeriaA,2020/2021,Genoa CFC,47,40.69,28.97,58,42.0,Top Half
+458,SeriaA,2020/2021,Inter Milan,89,78.37,55.86,35,91.0,Top Half
+459,SeriaA,2020/2021,Juventus FC,77,83.53999999999999,64.04,38,78.0,Top Half
+460,SeriaA,2020/2021,SS Lazio,61,58.73,40.06,55,68.0,Top Half
+461,SeriaA,2020/2021,SSC Napoli,86,74.95,52.0,41,77.0,Top Half
+462,SeriaA,2020/2021,Parma Calcio 1913,39,42.97,30.55,83,20.0,Bottom Half
+463,SeriaA,2020/2021,AS Roma,68,72.08,54.74,55,63.0,Top Half
+464,SeriaA,2020/2021,UC Sampdoria,52,46.7,32.34,54,52.0,Top Half
+465,SeriaA,2020/2021,US Sassuolo,64,61.59,37.09,56,62.0,Top Half
+466,SeriaA,2020/2021,Spezia Calcio,52,47.89,32.79,72,39.0,Bottom Half
+467,SeriaA,2020/2021,Torino FC,50,49.59,32.0,69,37.0,Bottom Half
+468,SeriaA,2020/2021,Udinese Calcio,42,48.24,32.28,58,40.0,Bottom Half
+469,SeriaA,2020/2021,Hellas Verona,43,47.980000000000004,36.58,48,43.0,Top Half
+471,SeriaA,2021/2022,Atalanta BC,65,68.72,53.36,48,59.0,Top Half
+472,SeriaA,2021/2022,Bologna FC 1909,44,45.58,33.78,55,46.0,Bottom Half
+473,SeriaA,2021/2022,Cagliari Calcio,34,40.74,29.83,68,30.0,Bottom Half
+475,SeriaA,2021/2022,ACF Fiorentina,59,62.03,39.26,51,62.0,Top Half
+476,SeriaA,2021/2022,Genoa CFC,27,38.52,26.99,60,28.0,Bottom Half
+477,SeriaA,2021/2022,Inter Milan,84,90.39,63.66,32,84.0,Top Half
+478,SeriaA,2021/2022,Juventus FC,57,60.85,42.68,37,70.0,Top Half
+479,SeriaA,2021/2022,SS Lazio,77,59.3,42.77,58,64.0,Top Half
+480,SeriaA,2021/2022,SSC Napoli,74,63.65,43.22,31,79.0,Top Half
+481,SeriaA,2021/2022,AS Roma,59,66.81,47.35,43,63.0,Top Half
+482,SeriaA,2021/2022,US Salernitana 1919,33,39.46,26.37,78,31.0,Bottom Half
+483,SeriaA,2021/2022,UC Sampdoria,46,39.12,28.580000000000002,63,36.0,Bottom Half
+484,SeriaA,2021/2022,US Sassuolo,64,59.36,43.64,66,50.0,Top Half
+485,SeriaA,2021/2022,Spezia Calcio,41,41.65,29.48,71,36.0,Bottom Half
+486,SeriaA,2021/2022,Torino FC,46,53.76,39.83,41,50.0,Top Half
+487,SeriaA,2021/2022,Udinese Calcio,61,57.14,40.769999999999996,58,47.0,Bottom Half
+489,SeriaA,2021/2022,Hellas Verona,65,56.37,37.66,59,53.0,Top Half
