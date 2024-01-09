@@ -13,7 +13,8 @@ import re
 from statistics import mean
 
 
-def scrape_fbref(team, link):
+def scrape_fbref_teamstats(team, link):
+    """scrapes and collates a given team's stats from fbref.com"""
     soup = stealth_scraper(link)
     summary_stats = soup.find("table", {"id": "stats_standard_10"}).find("tfoot")
     team_totals = summary_stats.find_all("tr")[0]
@@ -52,7 +53,8 @@ def scrape_fbref(team, link):
     return stats
 
 
-if __name__ == '__main__':
+def team_stat_scraper(write_out=False):
+    """scrapes stats for list of teams for given seasons"""
     # Getting seasons for teams recently promoted to the championship where they finished top half
     team_links = {"Wigan": ["https://fbref.com/en/squads/e59ddc76/2022-2023/Wigan-Athletic-Stats"],
                   "Sunderland": ["https://fbref.com/en/squads/8ef52968/2022-2023/Sunderland-Stats"],
@@ -65,9 +67,96 @@ if __name__ == '__main__':
     data = []
     for team, links in team_links.items():
         for i, l in enumerate(links):
-            temp_stats_df = scrape_fbref(team, l)
+            temp_stats_df = scrape_fbref_teamstats(team, l)
             data.append(temp_stats_df)
-            print(f"Added record {i+1} for {team}")
+            print(f"Added record {i + 1} for {team}")
     stats_df = pd.concat(data, ignore_index=True)
-    stats_df.to_csv("Championship Goal Team Stats.csv")
+    if write_out:
+        stats_df.to_csv("Datasets/Championship Goal Team Stats.csv")
 
+
+def extract_stat(table_soup, stat_name, data_type):
+    stat = table_soup.find_all("td", {"data-stat": stat_name})
+    if data_type == "int":
+        stat = [int(s.text.strip()) if s.text.strip() != "" else 0 for s in stat]
+    elif data_type == "float":
+        stat = [float(s.text.strip()) if s.text.strip() != "" else 0 for s in stat]
+    else:
+        stat = [s.text.strip() if s.text.strip() != "" else "0" for s in stat]
+    return stat
+
+
+def scrape_soup(link, page):
+    split_link = link.split("/")
+    split_link[-2] = page
+    page_link = "/".join(split_link)
+    soup = stealth_scraper(page_link)
+    return soup
+
+
+def scrape_fbref_playerstats(link):
+    pages = ["stats", "shooting", "gca", "passing"]
+    soup = scrape_soup(link, pages[0])
+    table_standard = soup.find("table", {"id": "stats_standard"}).find("tbody")
+    names_standard = extract_stat(table_standard, "player", "string")
+    team_standard = extract_stat(table_standard, "team", "string")
+    age_standard = extract_stat(table_standard, "age", "string")
+    age_standard = [int(a.split("-")[0]) for a in age_standard]
+    # print(age_standard)
+    goals_standard = extract_stat(table_standard, "goals", "int")
+    assists_standard = extract_stat(table_standard, "assists", "int")
+    progp_standard = extract_stat(table_standard, "progressive_passes", "int")
+    standard_df = pd.DataFrame(
+        [names_standard, team_standard, age_standard, goals_standard, assists_standard, progp_standard]).T.rename(
+        {0: "Name", 1: "Team", 2: "Age", 3: "Goals", 4: "Assists", 5: "ProgP"}, axis=1).set_index("Name")
+
+    soup = scrape_soup(link, pages[1])
+    table_shooting = soup.find("table", {"id": "stats_shooting"}).find("tbody")
+    names_shooting = extract_stat(table_shooting, "player", "string")
+    sot_shooting = extract_stat(table_shooting, "shots_on_target", "int")
+    gps_shooting = extract_stat(table_shooting, "goals_per_shot", "float")
+    shooting_df = pd.DataFrame([names_shooting, sot_shooting, gps_shooting]).T.rename(
+        {0: "Name", 1: "SoT", 2: "G/Sh"}, axis=1).set_index("Name")
+
+    soup = scrape_soup(link, pages[2])
+    table_gca = soup.find("table", {"id": "stats_gca"}).find("tbody")
+    names_gca = extract_stat(table_gca, "player", "string")
+    sca_gca = extract_stat(table_gca, "sca", "int")
+    gca_df = pd.DataFrame([names_gca, sca_gca]).T.rename({0: "Name", 1: "SCA"}, axis=1).set_index("Name")
+
+    soup = scrape_soup(link, pages[3])
+    table_passing = soup.find("table", {"id": "stats_passing"}).find("tbody")
+    names_passing = extract_stat(table_passing, "player", "string")
+    ppa_passing = extract_stat(table_passing, "passes_into_penalty_area", "int")
+    kp_passing = extract_stat(table_passing, "assisted_shots", "int")
+    passing_df = pd.DataFrame([names_passing, ppa_passing, kp_passing]).T.rename({0: "Name", 1: "PassesPA", 2: "KP"},
+                                                                                 axis=1).set_index("Name")
+    stats_df = standard_df.join([shooting_df, gca_df, passing_df])
+
+    stats_df["Creation Rank"] = stats_df["Assists"].rank(ascending=False) + stats_df["ProgP"].rank(ascending=False) + \
+                                stats_df["SCA"].rank(ascending=False) + stats_df["PassesPA"].rank(ascending=False) + \
+                                stats_df["KP"].rank(ascending=False)
+    stats_df["Scoring Rank"] = stats_df["Goals"].rank(ascending=False) + stats_df["SoT"].rank(ascending=False) + \
+                               stats_df["G/Sh"].rank(ascending=False)
+    return stats_df
+
+
+def player_stat_scraper():
+    links = {"Championship": "https://fbref.com/en/comps/10/stats/Championship-Stats",
+             "LigaMX": "https://fbref.com/en/comps/31/stats/Liga-MX-Stats",
+             "Serie-B": "https://fbref.com/en/comps/18/stats/Serie-B-Stats",
+             "Bundesliga2": "https://fbref.com/en/comps/33/stats/2-Bundesliga-Stats"}
+    dataframes = []
+    for league, link in links.items():
+        temp_df = scrape_fbref_playerstats(link)
+        dataframes.append(temp_df)
+        print(f"Record added for {league}")
+    stats_df = pd.concat(dataframes)
+    stats_df.to_csv("Datasets/Transfer Target Stats.csv")
+
+
+if __name__ == '__main__':
+    t0 = time.time()
+    player_stat_scraper()
+    t1 = time.time()
+    print(t1 - t0)
