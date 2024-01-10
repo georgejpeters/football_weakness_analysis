@@ -83,8 +83,9 @@ def feature_selection():
     y_defensive = team_stats[["Goals Conceded"]]
     defensive_importances = calculate_feature_importance(X_defensive, y_defensive, defensive_target_stats.columns)
     #defensive_importances = defensive_importances[defensive_importances["Importance"] >= 3]
-
+    print("Offensive Importances")
     print(offensive_importances)
+    print("Defensive Importances")
     print(defensive_importances)
 
 

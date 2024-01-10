@@ -94,7 +94,7 @@ def scrape_soup(link, page):
     return soup
 
 
-def scrape_fbref_playerstats(link):
+def scrape_fbref_playerstats(link, league):
     pages = ["stats", "shooting", "gca", "passing"]
     soup = scrape_soup(link, pages[0])
     table_standard = soup.find("table", {"id": "stats_standard"}).find("tbody")
@@ -106,9 +106,11 @@ def scrape_fbref_playerstats(link):
     goals_standard = extract_stat(table_standard, "goals", "int")
     assists_standard = extract_stat(table_standard, "assists", "int")
     progp_standard = extract_stat(table_standard, "progressive_passes", "int")
+    league_standard = [league] * len(names_standard)
     standard_df = pd.DataFrame(
-        [names_standard, team_standard, age_standard, goals_standard, assists_standard, progp_standard]).T.rename(
-        {0: "Name", 1: "Team", 2: "Age", 3: "Goals", 4: "Assists", 5: "ProgP"}, axis=1).set_index("Name")
+        [names_standard, team_standard, league_standard, age_standard, goals_standard, assists_standard,
+         progp_standard]).T.rename(
+        {0: "Name", 1: "Team", 2: "League", 3: "Age", 4: "Goals", 5: "Assists", 6: "ProgP"}, axis=1).set_index("Name")
 
     soup = scrape_soup(link, pages[1])
     table_shooting = soup.find("table", {"id": "stats_shooting"}).find("tbody")
@@ -133,30 +135,39 @@ def scrape_fbref_playerstats(link):
                                                                                  axis=1).set_index("Name")
     stats_df = standard_df.join([shooting_df, gca_df, passing_df])
 
+    # decided to add in key passes even though slightly outside of feature importance threshold as is within an acceptable
+    # range and feels like an important stat for analysing creative players
     stats_df["Creation Rank"] = stats_df["Assists"].rank(ascending=False) + stats_df["ProgP"].rank(ascending=False) + \
-                                stats_df["SCA"].rank(ascending=False) + stats_df["PassesPA"].rank(ascending=False) + \
-                                stats_df["KP"].rank(ascending=False)
+                                stats_df["KP"].rank(ascending=False) + stats_df["PassesPA"].rank(ascending=False)
+
     stats_df["Scoring Rank"] = stats_df["Goals"].rank(ascending=False) + stats_df["SoT"].rank(ascending=False) + \
                                stats_df["G/Sh"].rank(ascending=False)
     return stats_df
 
 
 def player_stat_scraper():
-    links = {"Championship": "https://fbref.com/en/comps/10/stats/Championship-Stats",
-             "LigaMX": "https://fbref.com/en/comps/31/stats/Liga-MX-Stats",
-             "Serie-B": "https://fbref.com/en/comps/18/stats/Serie-B-Stats",
-             "Bundesliga2": "https://fbref.com/en/comps/33/stats/2-Bundesliga-Stats"}
+    current_season = False
+    current_season_links = {"Championship": "https://fbref.com/en/comps/10/stats/Championship-Stats",
+                            "LigaMX": "https://fbref.com/en/comps/31/stats/Liga-MX-Stats",
+                            "Serie-B": "https://fbref.com/en/comps/18/stats/Serie-B-Stats",
+                            "Bundesliga2": "https://fbref.com/en/comps/33/stats/2-Bundesliga-Stats"}
+    previous_season_links = {"LigaMX": "https://fbref.com/en/comps/31/2022-2023/stats/2022-2023-Liga-MX-Stats",
+                             "Serie-B": "https://fbref.com/en/comps/18/2022-2023/stats/2022-2023-Serie-B-Stats",
+                             "Bundesliga2": "https://fbref.com/en/comps/33/2022-2023/stats/2022-2023-2-Bundesliga-Stats"}
     dataframes = []
-    for league, link in links.items():
-        temp_df = scrape_fbref_playerstats(link)
+    for league, link in previous_season_links.items():
+        temp_df = scrape_fbref_playerstats(link, league)
         dataframes.append(temp_df)
         print(f"Record added for {league}")
     stats_df = pd.concat(dataframes)
-    stats_df.to_csv("Datasets/Transfer Target Stats.csv")
+    if current_season:
+        stats_df.to_csv("Datasets/Transfer Target Stats.csv")
+    else:
+        stats_df.to_csv("Datasets/Transfer Target Stats 22-23.csv")
 
 
 if __name__ == '__main__':
     t0 = time.time()
     player_stat_scraper()
     t1 = time.time()
-    print(t1 - t0)
+    print(f"Time of {t1 - t0}")
