@@ -8,9 +8,45 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 from fuzzywuzzy import process
-from league1_data_collection import stealth_scraper
 import re
 from statistics import mean
+
+
+def stealth_scraper(link, buttons=None):
+    options = webdriver.ChromeOptions()
+    options.add_argument(
+        "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+        "HeadlessChrome/96.0.4664.110 Safari/537.36")
+    options.add_argument("start-maximized")
+    options.add_argument("--headless")
+    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_experimental_option('useAutomationExtension', False)
+    driver = webdriver.Chrome(options=options)
+    # WhoScored and TransferMarkt use cloudlfare so have to work around, not the most efficient solution but as this
+    # is a small scale scrape its acceptable
+    stealth(driver,
+            languages=["en-US", "en"],
+            vendor="Google Inc.",
+            platform="Win32",
+            webgl_vendor="Intel Inc.",
+            renderer="Intel Iris OpenGL Engine",
+            fix_hairline=True,
+            )
+    driver.get(link)
+    # if any buttons need to be clicked on the page to load all data
+    if buttons:
+        for b in buttons:
+            WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, b)))
+            button = driver.find_element(By.XPATH, b)
+            print(button.text)
+            # button.click()
+            webdriver.ActionChains(driver).move_to_element(button).click(button).perform()
+            # driver.execute_script("arguments[0].click();", button)
+            # WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CLASS_NAME, "outfielderBlockPerGame")))
+    html = driver.page_source
+    soup = BeautifulSoup(html, "html.parser")
+    driver.quit()
+    return soup
 
 
 def scrape_fbref_teamstats(team, link):
