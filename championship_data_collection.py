@@ -198,13 +198,16 @@ def player_stat_scraper(current_season=False):
         print(f"Record added for {league}")
     stats_df = pd.concat(dataframes)
     if current_season:
-        stats_df.to_csv("Datasets/Transfer Target Stats.csv")
+        stats_df.to_csv("Datasets/Transfer Target Stats 23-24.csv")
     else:
         stats_df.to_csv("Datasets/Transfer Target Stats 22-23.csv")
 
 
 if __name__ == '__main__':
     t0 = time.time()
-    player_stat_scraper()
+    # call this function to scrape data for championship goal teams
+    # team_stat_scraper()
+    # call this function to scrape stats for players in leagues targeted
+    player_stat_scraper(current_season=True)
     t1 = time.time()
     print(f"Time of {t1 - t0}")

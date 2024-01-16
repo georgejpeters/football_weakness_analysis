@@ -1,4 +1,3 @@
-
 import pandas as pd
 import numpy as np
 from fuzzywuzzy import process
@@ -84,14 +83,20 @@ def feature_selection():
     y_defensive = team_stats[["Goals Conceded"]]
     defensive_importances = calculate_feature_importance(X_defensive, y_defensive, defensive_target_stats.columns)
     #defensive_importances = defensive_importances[defensive_importances["Importance"] >= 3]
+    print("--------------------")
     print("Offensive Importances")
+    print("--------------------")
     print(offensive_importances)
+    print("--------------------")
     print("Defensive Importances")
+    print("--------------------")
     print(defensive_importances)
 
 
 
 
 if __name__ == '__main__':
-    build_dataset()
-    # feature_selection()
+    # calling this function builds and writes to disk the necessary dataset for feature selection
+    # build_dataset()
+    # calling this function analyses the data and computed the feature importance scores
+    feature_selection()
