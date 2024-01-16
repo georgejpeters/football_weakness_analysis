@@ -22,7 +22,7 @@ def stealth_scraper(link, buttons=None):
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
     options.add_experimental_option('useAutomationExtension', False)
     driver = webdriver.Chrome(options=options)
-    # WhoScored and TransferMarkt use cloudlfare so have to work around, not the most efficient solution but as this
+    # WhoScored uses Cloudflare so have to work around, not the most efficient solution but as this
     # is a small scale scrape its acceptable
     stealth(driver,
             languages=["en-US", "en"],
