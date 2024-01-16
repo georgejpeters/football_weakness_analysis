@@ -43,7 +43,7 @@ def build_dataset():
     team_data = team_stats.merge(team_performances, on=["Season", "Squad"])
     team_data.dropna(inplace=True)
     team_data.drop_duplicates(subset=["Season", "Squad"], inplace=True)
-    team_data.to_csv("Datasets/Team Data 17-21.csv")
+    team_data.to_csv("Datasets/Team Data 17-22.csv")
 
 
 def calculate_feature_importance(X, y, features):
@@ -55,12 +55,13 @@ def calculate_feature_importance(X, y, features):
     # fit the model
     model.fit(X, y)
     all_importances = []
-    # perform permutation importance scoring 5 times and average the results
+    # perform permutation importance scoring 5 times
     for i in range(5):
         results = permutation_importance(model, X, y, scoring='neg_mean_squared_error')
         importance = results.importances_mean
         all_importances.append(importance)
     all_importances = np.asarray(all_importances)
+    # average results of permutation feature importance over five runs
     mean_all_importances = np.mean(all_importances, axis=0)
     importance_dict = dict(zip(features, mean_all_importances))
     importance_df = pd.DataFrame.from_dict(importance_dict, orient="index", columns=["Importance"])
@@ -69,7 +70,7 @@ def calculate_feature_importance(X, y, features):
 
 
 def feature_selection():
-    team_stats = pd.read_csv("Datasets/Team Data 17-21.csv", index_col=0)
+    team_stats = pd.read_csv("Datasets/Team Data 17-22.csv", index_col=0)
     # Goal creating actions assists and gca from dribbles all dropped as they are directly related to goals
     offensive_target_stats = team_stats.drop(["Season", "Squad", "Age", "Goals", "GCA", "Assists", "GcaDrib", "Goals Conceded"], axis=1)
     X_offensive = offensive_target_stats
@@ -92,6 +93,5 @@ def feature_selection():
 
 
 if __name__ == '__main__':
-    # scrape_fbref("https://fbref.com/en/squads/e59ddc76/Wigan-Athletic-Stats")
-    # build_dataset()
-    feature_selection()
+    build_dataset()
+    # feature_selection()

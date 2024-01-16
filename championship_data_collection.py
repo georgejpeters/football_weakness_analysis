@@ -181,17 +181,18 @@ def scrape_fbref_playerstats(link, league):
     return stats_df
 
 
-def player_stat_scraper():
-    current_season = False
-    current_season_links = {"Championship": "https://fbref.com/en/comps/10/stats/Championship-Stats",
+def player_stat_scraper(current_season=False):
+    if current_season:
+        season_links = {"Championship": "https://fbref.com/en/comps/10/stats/Championship-Stats",
                             "LigaMX": "https://fbref.com/en/comps/31/stats/Liga-MX-Stats",
                             "Serie-B": "https://fbref.com/en/comps/18/stats/Serie-B-Stats",
                             "Bundesliga2": "https://fbref.com/en/comps/33/stats/2-Bundesliga-Stats"}
-    previous_season_links = {"LigaMX": "https://fbref.com/en/comps/31/2022-2023/stats/2022-2023-Liga-MX-Stats",
+    else:
+        season_links = {"LigaMX": "https://fbref.com/en/comps/31/2022-2023/stats/2022-2023-Liga-MX-Stats",
                              "Serie-B": "https://fbref.com/en/comps/18/2022-2023/stats/2022-2023-Serie-B-Stats",
                              "Bundesliga2": "https://fbref.com/en/comps/33/2022-2023/stats/2022-2023-2-Bundesliga-Stats"}
     dataframes = []
-    for league, link in previous_season_links.items():
+    for league, link in season_links.items():
         temp_df = scrape_fbref_playerstats(link, league)
         dataframes.append(temp_df)
         print(f"Record added for {league}")
